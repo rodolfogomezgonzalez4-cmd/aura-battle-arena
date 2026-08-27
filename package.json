@@ -15,7 +15,7 @@
     "expo-camera": "~15.0.0",
     "expo-image-picker": "~15.0.0",
     "react-native-purchases": "^8.0.0",
-    "react-native-google-pay": "^2.2.0",
+    "react-native-google-pay": "^2.1.0",
     "expo-secure-store": "~13.0.0"
   }
 }
