@@ -8,7 +8,7 @@
     "build": "eas build -p android"
   },
   "dependencies": {
-    "expo": "~51.0.0",
+    "expo": "~51.0.39",
     "expo-router": "~3.5.0",
     "react": "18.2.0",
     "react-native": "0.74.1",
