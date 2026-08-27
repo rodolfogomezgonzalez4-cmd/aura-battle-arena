@@ -1,10 +1,19 @@
 {
+  "cli": {
+    "version": ">= 5.9.1"
+  },
   "build": {
     "preview": {
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
