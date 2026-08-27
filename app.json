@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Aura Battle Arena",
+    "slug": "aura-battle-arena",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.aurabattle.arena",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "com.android.vending.BILLING"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Necesitamos c\u00e1mara para escanear gestos y farmear aura"
+        }
+      ]
+    ]
+  }
+}
