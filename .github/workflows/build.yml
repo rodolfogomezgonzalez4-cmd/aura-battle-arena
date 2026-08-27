@@ -7,9 +7,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: npm install
       - run: npm install -g eas-cli
-      - run: eas build --platform android --non-interactive --no-wait
+      - name: Build Android
+        run: eas build --platform android --non-interactive --no-wait
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
