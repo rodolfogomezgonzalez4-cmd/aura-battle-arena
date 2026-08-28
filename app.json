@@ -5,11 +5,11 @@
     "owner": "chanito1980s-team",
     "extra": {
       "eas": {
-        "projectId": "464743fe-968a-4127-a4bb-6693fc383445"
+        "projectId": "464743fe-968a-4127-a4bb-6693fc3b"
       }
     },
     "android": {
-      "package": "com.chanito1980s.aurabattlearena"
+      "package": "com.aurabattlearena.app"
     }
   }
 }
